@@ -12,7 +12,7 @@
     <li>
       Envie uma requisiçao POST para http://localhost:8000/api/projects/ com o corpo:  
         
-    ````
+    
     POST /api/projects
     {
         "name": "titan",
@@ -21,10 +21,10 @@
             {"name": "graphene", "version": "2.0"}
         ]
     }
-    ```
+    
     O código HTTP de retorno deve ser 201 e o corpo esperado na resposta é:
         
-    ```
+    
     {
         "name": "titan",
         "packages": [
@@ -32,7 +32,7 @@
             {"name": "graphene", "version": "2.0"}   // Manteve a versão especificada
         ]
     }
-    ```
+    
     
 </li>
 <li>
