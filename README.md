@@ -76,6 +76,7 @@ POST /api/projects
 }
 ```
 O código HTTP de retorno deve ser 400 e o corpo esperado na resposta é:
+
 ```
 {
     "error": "One or more packages doesn't exist"
@@ -85,8 +86,8 @@ O código HTTP de retorno deve ser 400 e o corpo esperado na resposta é:
 <li>
     Também é possivel rodar os testes internos utilizando o K6, para isso, com a API rodando no link anterior caso não tenha sido alterado, abra um terminal novo e utilize o comando:
     
-    ``
+    
     k6 run -e API_BASE='http://localhost:8080/' tests-open.js
-    ``
+    
 </li>
 </ol>
