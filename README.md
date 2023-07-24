@@ -56,7 +56,7 @@ GET /api/projects/titan
 <li>E deletar projetos pelo nome:
     
 ```
-DELETE /api/projects/titan
+DELETE http://localhost:8000/api/projects/titan
 ```
 </li>
 
